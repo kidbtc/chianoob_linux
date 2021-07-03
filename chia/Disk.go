@@ -80,7 +80,6 @@ func GetRunPath(idx string) (ssdpt string, ssdp2 string, hhdp string, err error)
 			} else {
 				ssdpt = ssd[2].Path
 			}
-
 		}
 		ssdp2 = ssd[1].Path
 	}
